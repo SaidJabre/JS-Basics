@@ -1,4 +1,4 @@
-# JavaScript Basics 1 - Variables, Functions, and Branching <kbd>30🔑</kbd>
+  # JavaScript Basics 1 - Variables, Functions, and Branching <kbd>30🔑</kbd>
 
 - Each step has a prepared html file to work with, use it
 - You should create a javascript file for each step with the name of the step.
