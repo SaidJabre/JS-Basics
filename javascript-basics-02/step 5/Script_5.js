@@ -1,15 +1,15 @@
-var images=document.querySelectorAll("img");
 var bDone = 0;
 
-for (var image of images)
-    image.addEventListener("mouseover",changeImg);
+const images=document.querySelectorAll("img");
+for (let i=0; i < images.length; i++)
+    images[i].addEventListener("mouseover",changeImg);
 
 function changeImg()
-{
+{ 
     if (bDone===0)
     {
-        var images = document.querySelectorAll("img");
-        for (var image of images)
+        const images = document.querySelectorAll("img");
+        for (const image of images)
         {
             var source = image.src;
             var len = image.src.length;
@@ -19,5 +19,4 @@ function changeImg()
         }
         bDone = 1;
     }
-    
 }
